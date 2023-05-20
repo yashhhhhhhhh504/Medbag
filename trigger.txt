@@ -1,0 +1,9 @@
+this file consits of the insert function which can be used to check weather the trigger is working or not
+
+use med_bag; 
+
+INSERT INTO membership (membership_type, customer_id, discount_percentage, membership_startdate, membership_enddate)
+VALUES ('Gold', 1, 0.6, '2022-01-01', '2023-01-01');
+
+INSERT INTO Stock (stock_quantity, drug_id, batch_id, price, date_expiry)
+VALUES (5, 1, 12345, 10.99, '2024-01-01');
